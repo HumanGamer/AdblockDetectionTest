@@ -21,6 +21,12 @@ body {
     background: #ffffff;
 }
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .block {
     background: #fbffbc;
     padding: 1px 10px;
@@ -38,17 +44,30 @@ body {
 
 .adtest {
     text-align: center;
+    padding-bottom: 25px;
 }
 
 .adtest > span {
-    background: #d30000;
     border-radius: 7px;
     padding: 10px;
-    color: white;
+    color: black;
     font-size: 1.2em;
     font-weight: bold;
     letter-spacing: 0.05em;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
 }
+
+.button-red {
+    background: #d30000; 
+    color: white !important;
+}
+
+.button-green {
+    background: green;
+}
+
 
 /*h1 h2 h3 h4 h5 h6 {
 
