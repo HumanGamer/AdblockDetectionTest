@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="block">
                     <h2>ads.js</h2>
-                    <p>Some websites attempt to block ads by using a file called ads.js as ad blockers will block these.</p>
+                    <p>Some websites detect ad blockers by using a file called ads.js as ad blockers will block these.</p>
                     <div class="adtest">
                         <span id="adtest1"><i class="fas fa-spinner fa-pulse"></i>&nbsp;Checking</span>
                     </div>
@@ -27,8 +27,8 @@
             </div>
             <div class="row">
                 <div class="block">
-                    <h2>Test</h2>
-                    <p>Test 2</p>
+                    <h2>adframe.js</h2>
+                    <p>Some websites detect ad blockers by using a file called adframe.js as ad blockers will block these.</p>
                     <div class="adtest">
                         <span id="adtest2"><i class="fas fa-spinner fa-pulse"></i>&nbsp;Checking</span>
                     </div>
@@ -59,6 +59,8 @@
     </footer>
 
     <script src="./js/ads.js" type="text/javascript"></script>
+    <script type="text/javascript">var adblock = true;</script>
+    <script src="./js/adframe.js" type="text/javascript"></script>
     <script src="./js/base.js" type="text/javascript"></script>
 </body>
 </html>
