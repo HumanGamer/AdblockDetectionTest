@@ -1,0 +1,50 @@
+/* Example Ad CSS */
+
+.adtext {
+    text-decoration: none;
+    color: white;
+}
+
+#adTester {
+    background-color: transparent;
+    height: 1px;
+    width: 1px;
+}
+
+.adexample {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.adexample > span {
+    padding: 10px;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.ad-button-green {
+    background: linear-gradient(limegreen, forestgreen);
+    background: -moz-linear-gradient(limegreen, forestgreen);
+    background: -webkit-linear-gradient(limegreen, forestgreen);
+    color: white !important;
+}
+
+.blockForAd {
+    background: #fbffbc;
+    padding: 1px 10px;
+    --width: 900px;
+    margin: 5px calc((100vw - var(--width)) / 2);
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+
+@media only screen and (max-width: 1000px) {
+    .blockForAd {
+        --width: 90vw;
+    }
+}
