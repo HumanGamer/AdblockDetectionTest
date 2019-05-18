@@ -72,5 +72,6 @@
     <script type="text/javascript">var adblock = true;</script>
     <script src="./js/adframe.js" type="text/javascript"></script>
     <script src="./js/base.js" type="text/javascript"></script>
+    <script src="http://tests.marblevortex.com/adtester/ads.js" type="text/javascript"></script>
 </body>
 </html>
